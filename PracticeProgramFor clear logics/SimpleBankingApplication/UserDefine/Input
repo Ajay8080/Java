@@ -1,0 +1,34 @@
+/*WAP to  develop a simple banking application with methods for creating accounts, 
+depositing and withdrawing money, checking balance, and transferring money between accounts.  
+
+
+Your banking application should allow users to create a new bank account. 
+Each account should have an account number and an initial balance.
+Implement a class named BankAccount with fields for accountNumber and balance. 
+Include method toinitialize these fields.
+
+Depositing Money
+Users should be able to deposit money into their bank account.
+Implement a method named deposit in the BankAccount class that takes 
+an amount as a parameter and adds it to the balance.
+
+Withdrawing Money
+Users should be able to withdraw money from their bank account, provided they have sufficient balance.
+Implement a method named withdraw in the BankAccount class that takes an amount as a parameter 
+and subtracts it from the balance if sufficient funds are available.
+
+ Checking Balance
+Users should be able to check the current balance of their bank account.
+Implement a method named checkBalance in the BankAccount class that prints the current balance to the console.
+
+Transferring Money Between Accounts
+Users should be able to transfer money from one bank account to another.
+Implement a static method named transfer in the BankAccount class that takes 
+two BankAccount objects and an amount as parameters, transferring the specified 
+amount from one account to the other if sufficient funds are available.
+
+  The transfer method facilitates the transfer of funds between two accounts by calling 
+  the withdraw method on the source account and the deposit method on the destination account. 
+  It also checks for sufficient funds before proceeding. */
+
+  
