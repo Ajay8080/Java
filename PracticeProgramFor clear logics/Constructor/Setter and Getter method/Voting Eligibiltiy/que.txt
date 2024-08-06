@@ -1,0 +1,18 @@
+Ques - 1
+-------------
+Person Class with Voting Eligibility Check
+Create a Java program that includes a Person class with private member variables name and age. Implement setter and getter methods for these variables.
+attributes:
+name: String: private
+age: String: private
+
+methods:
+setters/getters for storing and retrieving instance members.
+
+method name: display
+access modifiers: public
+return type: void
+This method will print all the member values.
+
+Develop ELC class named Tester
+In  main method, instantiate a Person object, set its properties, and determine if the person is eligible to vote using a ternary operator. Finally, display all relevant information.

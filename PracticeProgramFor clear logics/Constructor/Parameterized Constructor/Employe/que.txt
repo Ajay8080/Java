@@ -1,0 +1,31 @@
+Create a class Employee (Business Logic Class)
+
+ Instance Variables:
+
+    Names		Data Type
+    ---------	   ----------------
+ employeeNumber   	: int
+ employeeName 	 	: String
+ employeeSalary		: double
+
+ Access Modifier  	:private (for all variables)
+
+ Create a parameterized constructor to initialize all the fields.
+
+ Create only getter methods to retrieve the data from instance variables.
+
+ Create another class Tester (ELC class)
+ which contains main method ,
+ which will ask the user about all the instance variable values and creates object.
+
+ In this ELC class print the following details
+ a) If salary is >=60000, Print Employee is a Developer
+ b) If salary is >=40000 and <60000 , Print Employee is a Designer
+ c) If Salary is <40000 , Print Employee is a Tester
+
+
+Input:
+232, "Naresh Kumar", 43000
+
+Output:
+Employee is a Designer

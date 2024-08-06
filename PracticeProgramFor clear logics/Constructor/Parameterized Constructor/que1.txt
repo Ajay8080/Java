@@ -1,0 +1,34 @@
+Question-1
+--------------
+Create an Employee class (BLC Class)
+
+Attributes :
+
+names		Data Type
+--------      ---------------		
+ firstName   	:String   
+ lastName      	:String  
+ employeeId 	:int  
+ salary         :double  
+ NoOfProject 	:int 
+
+Access Modifier : private (for all variables)  
+
+Implement a parameterized constructors that accepts(firstName, lastName ,employeeId, salary, NoOfProject) as parameters to initialize the instance variables with user given values.
+
+provide setter and getter method for modifying and retrieving properties.
+
+implement calculateSalary() method that will add extra amount in salary based on NoOfProject.
+Return Type     : void
+Access modifier :public
+
+NoOfProject is more than 5 and less that 10 then add 5000
+NoOfProject is more than 10 and less that 20 then add 10000
+NoOfProject is more than 20 then add 15000
+
+Implement displayDetails method that will print all the object properties data.
+method name: displayDetails()
+return type: void
+Access modifier: public
+
+Take another class Tester (ELC Class) which is having main method and instantiate the Employee object and increase the salary by calling calculateSalary(_), then print updated salary by calling getter method and print the Employee details.

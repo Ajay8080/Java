@@ -1,0 +1,46 @@
+You are developing a task management application that allows users to create and manage their tasks efficiently. 
+
+Design a Java class named Task (Business Class)
+
+Attributes :
+
+name			data type
+-------			------------
+title			:String
+description		:String
+priority		:String
+
+Acess modifier : private(for all variables)
+
+Constructor: Initialize the Task object all properties.
+
+
+Methods:
+[Return type of all methods is void and acess modifier is public]
+
+updateDescription(String newDescription): This method should update the description of the task.
+
+updatePriority(String newPriority): This method should update the priority level of the task.
+
+markAsCompleted(): This method should mark the task as completed.
+
+Getters:
+getTitle(): This method should return the title of the task.
+getDescription(): This method should return the description of the task.
+getPriority(): This method should return the priority level of the task.
+isCompleted(): This method should return true if the task is completed, and false otherwise.
+
+
+Create another class main which is having main method and instantiate the task object and execute the method.
+
+Test Cases :
+
+case -1
+---------
+Task Title: Finish Project
+Task Description: Complete documentation
+Task Priority: High
+Is Task Completed? false
+
+Expected Output: 
+Valid input, (print all the above information)

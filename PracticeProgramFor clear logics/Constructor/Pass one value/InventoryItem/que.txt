@@ -1,0 +1,39 @@
+Design a inventory system for a retail store :
+  
+InventoryItem Class: [BLC Class]
+
+Create an InventoryItem class with the following 
+ 
+Attributes:
+--------------
+Names			dataType
+---------	      -----------
+itemName        	String (private)
+pricePerUnit    	double (private)
+quantityInStock 	int    (private)
+
+Implement a constructor that takes parameters to initialize the attributes of the InventoryItem object.
+
+Provide getter and setter methods for each attribute.
+
+ Method:
+-------------
+MethodName  		:calculateTotalValue()
+Return Type		:double
+Access Modifier 	:public
+
+This method should calculate and return the total value of the inventory item in stock, which is the product of the price per unit and the quantity in stock.
+
+
+Take a InventoryMain class (ELC Class) which is having  main method to  Create instances of the InventoryItem class, perform calculations, and display relevant information such as the total value of the item in stock and whether a reorder is required.
+
+Taste Case - 1
+-----------------
+Sample Input :
+
+Item Name: "Apples"
+Price per Unit: 10
+Quantity in Stock: 15
+
+Expected Output: 
+Total Value of Apples in Stock: 150

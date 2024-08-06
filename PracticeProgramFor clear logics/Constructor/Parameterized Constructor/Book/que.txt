@@ -1,0 +1,31 @@
+Design a Book printing System
+
+Create a class  Book (BLC Class)
+
+Attributes :
+
+Name		      data type 
+-------	             -----------
+title                 :String
+author       	      :String
+price 		          :double
+
+Access modifier       :public(for all variables)
+
+Take a parameterized constructor to initialize all the variables.
+
+Methods :
+Method Name		:getDetails
+Return type		:String
+Access modifier		:public
+This method should return  all the details of book properties in below format
+"Book [name = Effective Java, author = Joshua Bloch, price = 7000]"
+
+
+Method Name		:applyDiscount(double discountPercentage)
+Return type		:void
+Access modifier	 	:public
+if the discount percentage is negative or Zero then print a message "Discount percentage must be positive and non - zero".
+Based on given positive discount print the discount price and also print the price after discount.
+
+Develop a Main class(ELC) , in main method instantiate the Book class with proper real world values and find the discount of the book.

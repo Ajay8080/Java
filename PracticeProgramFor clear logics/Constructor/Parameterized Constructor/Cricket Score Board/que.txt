@@ -1,0 +1,79 @@
+
+Design a Cricket Score Board by using following requirements 
+
+Take a Class Batter (Business Logic  Class)
+
+Instance variables:
+
+Names		Data Type
+---------     ----------------
+name		: String
+runs		: int
+matches		: int
+batting_avg	: float
+
+Access Modifier :public (for all variables)
+
+ Create a no argument constructor that assigns default values to instance variables.
+ Create parameterized constructor that accepts name, runs, matches.
+
+Methods :
+
+Method name		: computeBattingAvgeera
+Access Modifier 	: public
+Return type		: void
+
+This method should print the batting average of the batter by dividing run with matches with name.
+
+Input: "Sachin", 18000, 463
+
+Output:
+Name: Sachin
+Batting Avg: 38.87
+
+Note: 
+
+a. If runs or matches values are negative print 'Error'.
+b. If runs are greater than 0 when matches are 0 print 'Error'.
+
+Method name: getStatistics
+Return type: void
+This method should print the details of the batter.
+
+Input: "Sachin", 18000, 463
+
+Output:
+Name: Sachin
+Runs: 18000
+Matches: 463
+
+Note: 
+a. If runs or matches values are negative print 'Error'.
+b. If runs are greater than 0 when matches are 0 print 'Error'.
+
+Given a class Testing (ELC Class) that contains main method. Use this class to test your code.
+
+Test Case - 1 :
+-----------------
+
+Invalid Case: Negative runs
+
+Sample Input: "Rahul", -15000, 300
+
+Expected Output:
+Error: Runs and matches must be non-negative.
+
+
+Test case: 2
+----------------
+Valid case:
+
+Sample Input: "Rahul", 15500, 300
+
+Expected Output:
+Name: Rahul
+Runs: 15500
+Matches: 300
+
+Name: Rahul
+Batting Avg : 51.66
