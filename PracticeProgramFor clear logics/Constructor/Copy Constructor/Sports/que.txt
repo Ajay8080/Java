@@ -1,0 +1,50 @@
+Design sports Model system
+
+Create  a class name Sports (BLC Class)
+
+Attributes :
+name             Return Type
+-------            --------------
+sportName            :String
+teamSize         :int
+sportType            :String
+
+Access modifier  :private (for all variable)
+
+Take a no parameterize constructor and initialize all the default values to variables.
+Take one more constructor with two parameters sportName and teamSize and initialize with user values based on validation.
+Take another constructor with 3 parameters and initialize all the values based on proper validation.
+
+Methods  :
+Method Name       : displayInfo
+Return Type       : void
+Acess Modifier    : public
+
+and in this method to print all the details of the class.
+
+
+Take a Main Class(ELC Class) which having main method and instantiate the object and execute the method.
+
+Test Cases:
+-------------
+
+for teamSize, If teamSize is less than or equal to zero, it sets teamSize to 0 and prints an error message.
+
+Test Case 1: Valid sport with name and team size
+Sport Name: Football
+Team Size: 11
+Sport Type: Unknown
+
+Expected Output :
+---------------------
+(print the details)
+
+Test Case 2: Invalid sport with negative team size
+Error: Team size must be positive.
+Sport Name: Volleyball
+Team Size: -1
+Sport Type: Unknown
+
+Expected Output :
+---------------------
+Error: Team size must be positive.

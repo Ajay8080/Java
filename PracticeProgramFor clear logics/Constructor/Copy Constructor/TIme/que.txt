@@ -1,0 +1,40 @@
+A class called  Time is given to you. The task is to create and return a new time object in terms of hours, minutes and seconds by adding two Time objects.
+
+Define the following for the class.
+
+Attributes :
+
+name
+-------
+hours ,minutes ,seconds as private  :-for all (int) is data type and (private) is the access modifier.
+
+Constructor :
+default : Create a no-parameterize constructor. Initialize all attributes to 0.
+parametrized : Create a public parameterized constructor for hours, minutes and seconds in the same sequence.
+
+Methods :
+
+    Name of the method : show()
+    Return Type        : void
+    Modifier       : public
+    Task            : It must display the time in hours: minutes: seconds format.
+
+       Name Of the method : add(Time t1, Time t2)
+    Return Type     : Time
+    Modifiers:    : public, static
+    Arguments    : 2 Time class as arguments.
+    Task        : Add the time And displays the added times.
+
+
+Take a ELC Class TimeTester class having main method instatiate the object and check the test cases.
+
+
+Example :
+
+Sample Input :
+time 1 : 2:30:40
+time 2 : 4:40:21
+
+Expected output :
+Result : 7:11:1
+

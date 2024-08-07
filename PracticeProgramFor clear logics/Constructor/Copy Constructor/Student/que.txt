@@ -1,0 +1,64 @@
+Take a class Student(BLC Class)
+
+Attributes:
+ 
+names        dataType
+---------      -----------
+studentId         :  int
+studentName       : String
+studentAge        : int
+
+Access Modifier :private for all variables
+
+take one no-parameterize constructor and initialize with default value.
+
+Take one parameterize constructor to initialize all the attributes.
+
+develop getter and setter method to access the private properties
+
+
+
+Methods:
+Name Of the method     : showDetails()  
+    Return Type         : void
+    Modifiers:        : public
+This method should print all the details of the Student.
+
+
+Take one more (BLC Class) Player .
+
+Attributes:
+
+names        dataType
+---------    -----------
+playerId      int
+playerName    String
+playerAge     int
+
+Access Modifier :private for all variables
+
+
+create a Copy constructor that takes a Student object as argument and initializes the Player object's attributes using the Student object's attributes.
+
+Methods :
+
+Name Of the method     : showDetails()  
+    Return Type         : void
+    Modifiers:        : public
+
+
+Name Of the method     : updateName(String newName)
+
+    Return Type     : void
+    Modifiers:        : public
+Public method to update the player's name.
+
+
+Name Of the method     : isEligible()  
+    Return Type     : void
+    Modifiers:    : boolean
+method that returns a boolean indicating if the player is eligible (e.g., age must be at least 18).
+
+
+Take one Main class(ELC Class) which is having main method  and instantiate the both class object and
+update the name of the player and print all the student and player details

@@ -1,0 +1,51 @@
+Create a class Employee (Business Logic Class)
+
+Instance Variables:
+
+employeeId       :private-int
+employeeName     : private-String
+employeeSalary    : private-double
+
+Create a private parameterized constructor to initialilize all the fields.
+
+Methods :
+Create a static method getEmployeeObject() in the Employee class
+   Method Name              : getEmployeeObject()
+   Parameter         : employeeId, employeeName, employeeSalary
+   Return type          : Employee
+   Access modifier      : public
+
+
+
+getEmployeeObject() method of Employee class should take employeeId, employeeName, employeeSalary from the keyboard to initialize the instance variables, Create and return the Employee object from this method.
+
+Create a method printEmployeeDetails :
+   Access modifier    :  public
+   Method name        :  printEmployeeDetails()
+   return type        :  String
+This method should return all the object details in below format:
+Employee[employeeId= 101, employeeName= "Virat", employeeSalary= 60000]
+
+
+Create another class Main which contains main method (ELC class).
+Employee data initialisation using scanner class.
+Accept 5 Employee Object from keyboard and print their data using  printEmployeeDetails().
+
+
+Test Cases :
+--------------
+case-1
+--------
+Sample Input :
+----------------
+Enter details for Employee 1:
+Enter Employee ID : 101
+Enter Employee Name : Virat Kohli
+Enter Employee Salary : 50000
+
+Expected Output :
+
+Employee [ID: 101, Name: Virat Kohli, Salary: 50000.0]
+
+
+
