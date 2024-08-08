@@ -1,0 +1,87 @@
+A class called Customer is given to you. 
+The task is to find the Applicable Credit card Type and create CardType object based on the Credit Points of a customer.
+
+Define the following for the class.
+Attributes : 
+	customerName : String, private
+	creditPoints: int, private
+ 
+Constructor :
+	parameterizedConstructor: for both cusotmerName & creditPoints in that order.
+
+
+Methods :
+	Name of the method : getCreditPoints
+	Return Type : int
+	Modifier  : public 
+	Task : This must return creditPoints
+
+	
+
+	Name of the method :getDetails, 
+	Return type : String 
+	Task : return only customerName from this.
+
+
+Create another class called CardType. Define the following for the class
+
+Attributes :
+	customer : Customer, private
+	cardType : String, private
+
+Constructor :
+	parameterizedConstructor: for customer and cardType attributes in that order
+
+
+
+Methods :
+	Name of the method : getDetails
+	Return type : String
+	Modifier : public
+
+	Task : Return the string in the following format.
+
+		The Customer 'Rajeev' Is Eligible For 'Gold' Card.
+
+
+Create One more class by name CardsOnOffer and define the following for the class.
+
+Method : 
+	Name Of the method : getOfferedCard 
+	Return type : CardType
+	Modifiers: public,static
+	Arguments: Customer object
+
+	Task : 	Create and return a CardType object after logically finding Grade from creditPoints as per the below rules.
+
+		Marks	 	Grade
+		100 - 500  -  Silver
+		501 - 1000 -  Gold
+		1001 >    -  Platinum
+		< 100    -  EMI
+
+Take a  Main class(ELC Class) and instantiate the object and execute the methods.
+
+Test cases :
+--------------
+case-1
+--------
+Sample Input :
+
+Customer: Rajeev
+Credit Points: 600
+
+Expected output:
+ The Customer 'Rajeev' Is Eligible For 'Gold' Card.
+
+case-2
+---------
+Sample Input :
+
+Customer: Alice
+Credit Points: 100
+
+Expected Output:
+The Customer 'Alice' Is Eligible For 'Silver' Card.
+
+
