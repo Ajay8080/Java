@@ -1,0 +1,5 @@
+Non-Static Employee Class:
+Create a Java class representing an employee with non-static variables
+for employee ID, name, and salary. Include non-static methods to raise
+the salary and display employee details. Instantiate multiple employee
+objects and perform operations like giving raises.

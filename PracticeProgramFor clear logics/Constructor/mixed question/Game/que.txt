@@ -1,0 +1,5 @@
+Non-Static Game Character:
+Design a Java class for a game character with non-static variables for
+health points, attack power, and defense. Include non-static methods
+for attacking and defending. Instantiate multiple characters and
+simulate battles between them.

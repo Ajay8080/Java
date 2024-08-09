@@ -1,0 +1,12 @@
+Static Constant:
+Create a Java class representing a geometric shape, such as a
+i).circle
+ii).rectangle.
+Define static final variables for common mathematical constants like PI .
+Ensure these constants are accessible without creating an instance of
+the class.
+Create method to find the area of a circle.Here you have to use final
+constant PI from Circle class.
+
+Create method to find the area of rectangle.
+Inputs will be provided to method during method calls.

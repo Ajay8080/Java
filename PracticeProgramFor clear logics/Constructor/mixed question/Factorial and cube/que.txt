@@ -1,0 +1,6 @@
+Static Utility Class:
+Design a utility class in Java that contains only static methods for
+various mathematical operations such as taking input and finding factorial,
+calculating cube.
+Method Name: findFactorial(), findCube()
+Demonstrate the usage of these static methods in another class.

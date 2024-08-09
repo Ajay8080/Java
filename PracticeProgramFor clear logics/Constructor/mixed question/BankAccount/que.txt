@@ -1,0 +1,6 @@
+Non-Static Bank Account:
+Implement a Java class for a bank account that has non-static/instance variables
+for the account holder's name, account number, and balance.
+Include non-static/instance methods to deposit, withdraw, and display the
+current balance.
+Test these methods with multiple account instances.

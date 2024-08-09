@@ -1,0 +1,8 @@
+.Non-Static Calculator:
+Implement a simple calculator class in Java with non-static/instance variables
+for two operands 'num1','num2'. Include non-static methods for
+addition, subtraction, multiplication, and division operations.
+Method names: findSum(),findDifference(),findProduct(),findQuotient().
+Create multiple instances of this class and perform different operations.
+* Note:object is also called as instance of class.
+* Take the input in the method using method parameters.
