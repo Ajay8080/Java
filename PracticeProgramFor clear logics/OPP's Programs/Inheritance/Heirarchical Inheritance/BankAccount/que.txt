@@ -1,0 +1,45 @@
+Create a Java application that models a banking system using inheritance. The project will include different types of bank accounts with specific features and behaviors.
+
+Classes and Requirements:
+
+Base Class: BankAccount
+
+Attributes:
+accountNumber (String)
+accountHolderName (String)
+balance (double)
+Constructor:
+Initialize the account number, account holder name, and starting balance.
+Methods:
+deposit(double amount): Add the amount to the balance.
+withdraw(double amount): Deduct the amount from the balance if sufficient funds are available.
+displayAccountDetails(): Display account number, holder name, and current balance.
+
+Subclass: SavingsAccount
+Inherits from BankAccount.
+Additional Attributes:
+interestRate (double)
+Constructor:
+Initialize the account number, account holder name, starting balance, and interest rate.
+Methods:
+applyInterest(): Add interest to the balance based on the current interest rate.
+Override displayAccountDetails() to include the interest rate.
+ [interest = balance * interestRate / 100]
+
+Subclass: CurrentAccount
+
+Inherits from BankAccount.
+Additional Attributes:
+overdraftLimit (double)
+Constructor:
+Initialize the account number, account holder name, starting balance, and overdraft limit.
+Methods:
+Override withdraw(double amount): Allow withdrawal up to the overdraft limit.
+Override displayAccountDetails() to include the overdraft limit.
+
+Main Class: Bank
+
+Main Method:
+Create instances of SavingsAccount, CurrentAccount, and FixedDepositAccount.
+Perform operations like deposit, withdraw, and apply interest.
+Display account details before and after transactions to show how the balance and other attributes change

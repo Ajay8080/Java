@@ -1,0 +1,51 @@
+
+Suppose you are working on developing a ticket booking system for various modes of transportation. Your task is to implement classes to represent different types of tickets, including train tickets, bus tickets, and flight tickets. Each ticket should store information such as the source, destination, price, and additional details specific to the mode of transportation.
+
+Ticket Class:
+
+Implement a base class Ticket with attributes to store the source, destination, and price of the ticket.
+Create a parameterized constructor to initialize these attributes.
+Include a method named displayTicketDetails() to print the details of the ticket.
+
+TrainTicket Class:
+
+Develop a subclass TrainTicket inheriting from the Ticket class.
+Add an additional attribute to store the train number.
+Override the displayTicketDetails() method to include the train number along with other ticket details.
+
+BusTicket Class:
+
+Create another subclass BusTicket inheriting from the Ticket class.
+Include an extra attribute to store the bus company name.
+Override the displayTicketDetails() method to print the bus company name along with other ticket details.
+
+FlightTicket Class:
+
+Implement a third subclass FlightTicket inheriting from the Ticket class.
+Add a new attribute to store the flight number.
+Override the displayTicketDetails() method to include the flight number in the ticket details.
+TicketBookingSystem Class:
+
+Develop a driver class named TicketBookingSystem containing the main method.
+Create instances of TrainTicket, BusTicket, and FlightTicket classes to represent different types of tickets.
+Demonstrate the functionality by calling the displayTicketDetails() method for each ticket object.
+Example Output:
+
+
+Train Ticket Details:
+Source: City A
+Destination: City B
+Price: 50
+Train Number: 123
+
+Bus Ticket Details:
+Source: City X
+Destination: City Y
+Price: 30
+Bus Company: XYZ Bus Company
+
+Flight Ticket Details:
+Source: City P
+Destination: City Q
+Price: 200
+Flight Number: ABC123

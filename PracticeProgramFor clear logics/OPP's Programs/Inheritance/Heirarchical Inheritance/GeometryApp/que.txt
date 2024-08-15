@@ -1,0 +1,35 @@
+Suppose you are working on a project to develop a geometry library that manages different geometric shapes, 
+including circles, rectangles, and triangles. Your task is to implement classes for these shapes, ensuring that 
+each shape has methods to calculate its area and perimeter.
+
+Shape Class:
+
+Develop a base class Shape with methods calculateArea() and calculatePerimeter().
+These methods should return 0.0 initially and should be overridden in the subclasses to calculate the actual area 
+and perimeter based on the shape's properties.
+
+Circle, Rectangle, and Triangle Classes:
+
+Implement subclasses Circle, Rectangle, and Triangle, each inheriting from the Shape class.
+For the Circle class, include an instance variable radius.
+For the Rectangle class, include instance variables length and width.
+For the Triangle class, include instance variables side1, side2, and side3.
+Override the calculateArea() and calculatePerimeter() methods in each subclass to compute the area and perimeter of the respective shape.
+
+GeometryApp Class:
+
+Develop a driver class GeometryApp with a main method to showcase the functionality of the geometric shapes.
+Instantiate objects for each shape class, providing relevant parameters such as radius, length, width, and sides for the shapes.
+Calculate and display the area and perimeter for each shape using the methods defined in the respective classes.
+
+
+
+Example Output:
+Circle Area: 78.53981633974483
+Circle Perimeter: 31.41592653589793
+
+Rectangle Area: 12.0
+Rectangle Perimeter: 14.0
+
+Triangle Area: 6.0
+Triangle Perimeter: 12.0
