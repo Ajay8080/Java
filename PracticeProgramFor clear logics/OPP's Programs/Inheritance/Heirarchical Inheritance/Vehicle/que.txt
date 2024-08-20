@@ -1,0 +1,6 @@
+Write a program that demonstrates method overriding with
+the toString() method. Create a superclass called Vehicle
+with a toString() method that returns the vehicle's name.
+Then, create a subclass called Car that overrides the
+toString() method to include additional information such
+as the car's model and year.

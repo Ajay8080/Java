@@ -1,0 +1,6 @@
+Create a superclass called BankAccount with a method
+calculateInterest() that calculates and returns the interest
+for a bank account. Then, create subclasses SavingsAccount
+and CheckingAccount that override the calculateInterest()
+method to provide their own implementation of interest
+calculation.

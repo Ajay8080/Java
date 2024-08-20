@@ -1,0 +1,4 @@
+Create a superclass called Animal with a method makeSound()
+that prints a generic sound. Then, create subclasses Dog and
+Cat that override the makeSound() method to make specific
+sounds like barking and meowing, respectively.

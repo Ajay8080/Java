@@ -1,0 +1,5 @@
+Write a program that demonstrates method overriding with
+the equals() method. Create a class called Person with instance
+variables for name, age, and gender. Override the equals()
+method to compare two Person objects based on their name,
+age, and gender.

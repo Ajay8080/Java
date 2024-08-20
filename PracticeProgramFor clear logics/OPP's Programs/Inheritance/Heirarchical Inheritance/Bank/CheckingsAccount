@@ -1,0 +1,9 @@
+class CheckingsAccount extends BankAccount {
+    public CheckingsAccount(double balance) {
+        super(balance); 
+    }
+    @Override
+    public double calculateInterest() {
+        return balance * 0.01;
+    }
+}
