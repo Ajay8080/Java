@@ -1,0 +1,4 @@
+Create a superclass called Shape with a method calculateArea()
+that calculates and returns the area of the shape. Then, create
+subclasses Circle and Rectangle that override the calculateArea()
+method to provide their own implementation of area calculation.
