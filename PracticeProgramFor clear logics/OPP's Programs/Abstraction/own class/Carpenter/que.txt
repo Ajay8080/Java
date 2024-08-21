@@ -1,0 +1,5 @@
+WAP for the below requirement
+  - Create two abstract methods in super class
+  - Complete first method in immediate sub class
+  - Complete second method in next level of sub class
+  - Create objects and call the methods

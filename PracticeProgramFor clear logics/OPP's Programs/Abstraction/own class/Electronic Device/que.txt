@@ -1,0 +1,5 @@
+WAP for the below requirement
+   Create an incomplete method in super class
+   Create three subclasses
+   Complete the method in all sub classes
+   Create objects and call the methods from main method

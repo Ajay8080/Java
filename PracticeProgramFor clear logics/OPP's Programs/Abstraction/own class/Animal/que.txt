@@ -1,0 +1,4 @@
+ WAP for the below requirement
+   - Create a super class
+   - Create two incomplete methods
+   - Complete both the methods in sub class      
