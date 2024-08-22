@@ -1,0 +1,28 @@
+You are working for a software company that develops a system for managing different
+types of vehicles in a rental service. The system needs to handle various types of vehicles
+such as cars, trucks, and motorcycles. Each vehicle has common properties like make, model,
+year, and methods like startEngine(), stopEngine(), and calculateRentalCost() which will be
+different for each type of vehicle.
+
+To design this system efficiently, you decide to use an abstract class for the common properties
+and methods and abstract methods for the methods that will be implemented differently for each
+type of vehicle.
+
+Task:
+Define an abstract class named Vehicle that includes:
+
+Fields for make, model, and year.
+A constructor to initialize these fields.
+Concrete methods startEngine() and stopEngine() that print messages indicating that the engine
+has started or stopped.
+An abstract method calculateRentalCost() that will be implemented by the subclasses.
+Create three subclasses Car, Truck, and Motorcycle that extend the Vehicle class and implement
+the calculateRentalCost() method. Assume the rental cost calculation is as follows:
+
+Car: $50 per day.
+Truck: $75 per day.
+Motorcycle: $40 per day.
+Write a main method that demonstrates the use of these classes:
+
+Create instances of Car, Truck, and Motorcycle.
+Call the startEngine(), stopEngine(), and calculateRentalCost() methods on each instance.
