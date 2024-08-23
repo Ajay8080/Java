@@ -1,0 +1,53 @@
+Payment Processing System
+Scenario:
+You have been tasked with developing a payment processing system for an e-commerce platform. 
+The system needs to support multiple payment methods, such as credit cards, PayPal, and bank transfers. 
+Each payment method has its own way of processing payments and issuing refunds, but they should all adhere to a
+ common interface to ensure consistency across the system.
+
+Requirements:
+
+Define an Interface:
+
+Create an interface Payment with the following methods:
+void pay(double amount): Processes the payment of the specified amount.
+void refund(double amount): Refunds the specified amount.
+Implement the Interface:
+
+Create three classes that implement the Payment interface:
+CreditCardPayment:
+This class should implement the pay and refund methods with logic that simulates a credit card payment processing system.
+Add attributes specific to credit card payments, such as cardNumber, expiryDate, and cvv.
+Include methods to validate the card details before processing payments.
+PayPalPayment:
+This class should implement the pay and refund methods with logic that simulates PayPal payment processing.
+Add attributes specific to PayPal, such as email and password.
+Include methods to authenticate the PayPal account before processing payments.
+BankTransferPayment:
+This class should implement the pay and refund methods with logic that simulates a bank transfer.
+Add attributes such as bankAccountNumber and routingNumber.
+Include methods to verify the bank details before processing payments.
+Implement Logging:
+Enhance the Payment interface by adding a default method void logTransaction(double amount, String transactionType)
+ that logs the details of the transaction (e.g., payment or refund) to the console.
+Use the Interface:
+
+In your main class, create instances of each payment type (CreditCardPayment, PayPalPayment, BankTransferPayment).
+Use the Payment interface reference to process payments and refunds for each type, demonstrating how you can switch 
+between different payment methods seamlessly.
+Test Cases:
+
+Write a series of test cases that:
+Validate the functionality of each payment method (credit card, PayPal, bank transfer).
+Test the pay and refund methods for each payment type.
+Ensure that the transaction logging is correctly implemented and outputs the expected information.
+Bonus Challenge:
+
+Extend the Payment interface with a new method void generateReceipt(double amount, String transactionType) that generates 
+a receipt for the payment or refund.Implement this method in each of the payment classes and demonstrate how the system 
+generates different types of receipts based on the payment method.
+Expected Output:
+
+Implementing this scenario should produce output where you can see different payment methods being processed, 
+refunds being issued, and transactions being logged. The system should handle each payment type's specific details
+ while using the Payment interface to maintain consistency.
