@@ -1,0 +1,72 @@
+Define an interface named as Notifier :
+
+it's having one abstract method  :
+
+Method Name         : notifyUsers
+Return type              : void
+Argument Type         :Varargs type
+Access Modifier        :public
+
+Create a base class User :
+
+Attributes :
+
+name  : String (private)
+email  : String (private)
+
+
+Take a parameterize constructor to initialize all the varriables
+
+Take one implemented class named as  EmailNotifier which is implements Notifier
+
+EmailNotifier :
+-----------------
+
+in this class override the notifyUsers method and give the standard implementation according to logic.
+
+in this class take one concrete method as private type :
+
+Method Name         : sendEmail
+Return type              : void
+Argument Type         :User
+Access Modifier        :private
+
+
+Take one Main class named as NotifierTest Demonstrates the functionality of the EmailNotifier class by creating instances of User and calling the notifyUsers method with multiple users.
+
+
+Test Case-1 :
+----------------
+
+Sample Input:
+User1: Name = "Alice", Email = "alice@example.com"
+User2: Name = "Bob", Email = "bob@example.com"
+
+Expected Output :
+
+Sending email to Alice at alice@example.com
+Sending email to Bob at bob@example.com
+
+
+Test Case-2 :
+--------------
+
+Sample Input :
+
+User: Name = "Charlie", Email = "charlie@example.com"
+
+Expected Output :
+Sending email to Charlie at charlie@example.com
+
+Test Case-3 :
+--------------
+
+Sample Input:
+
+User1: Name = "Frank", Email = null
+User2: Name = "Grace", Email = null
+
+Expected Output :
+
+Sending email to Frank at null
+Sending email to Grace at null

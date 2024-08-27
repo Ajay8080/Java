@@ -1,0 +1,50 @@
+Design a Media Chat process :
+
+ Define an interface  Messanger
+inside this having an abstract method
+
+Method Name          :sendMessage
+Return Type            :void
+Arguments Type     :User[Class Type]
+Acess Modifier        :public
+
+Create a base class named as User
+
+Attributes :
+name     :String (private)
+
+
+create an parameterize constructor for initializing the properties.
+
+in this class declare one method :
+
+Method Name         : displayMessage
+Return Type           : void
+Arguments Type     : String
+Acess Modifier        :public
+
+in this method print all the information.
+
+
+class InstagramUser :
+
+Take another subclass InstagramUser whose super class is User
+
+in this class for initializing super class properties we can take constructor.
+
+take one concrete method
+
+ 
+Method Name         : sendDirectMessage
+Return Type           : void
+Arguments Type     : String
+Acess Modifier        :public
+
+Take another class InstagramChat which is extend from the Messenger class
+
+and in this class just override the sendMessage method of the interface.
+
+this method is implementing the functionality which only allow the InstagramUser class not allowing to other class give error message.[User is not an Instagram user.]
+
+Take the main class named as InstagramChatTest which is having main method
+and inthis just demonstarte the functionality and invoke the method based on requirement.
