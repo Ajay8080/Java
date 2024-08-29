@@ -1,0 +1,35 @@
+EmployeeDuplicate
+
+A class EmployeeDuplicate is given to you. Add following details in the the class.
+
+
+EmployeeDuplicate:
+
+Instance Variables:
+
+id         :  int(private)
+name     : String(private)
+
+salary    : double(private )
+
+Create one no-parameterize constructor
+
+Also generate a public constructor that takes the following parameters: id, name, salary, in the same order.
+
+
+
+Methods:
+
+toString()    : String (public )
+
+equals()         : boolean (public)
+    
+
+toString(): Override this method to return the details of the employee
+
+equals() : write logic to not allow duplicate entry by id.
+
+
+A class Tester with main method is given to you to test your code by creating multiple employees with same id.
+
+

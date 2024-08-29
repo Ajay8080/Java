@@ -1,0 +1,35 @@
+MovieArtist Class:
+
+in this class Attributes:
+ name   :String (private )
+ role      :String (private)
+
+Constructor: Initializes name and role.
+
+toString Method:
+Overrides the toString method to return a custom string representation of the MovieArtist object.
+
+hashCode Method:
+Overrides the hashCode method to return a hash code based on the name and role.
+
+Take a Main Class :
+in this class having main method and instantiate the object .
+
+Print Book Details:
+Uses the toString method to print the book details.
+
+Print Hash Codes:
+Uses the overridden hashCode method to print the hash codes of the book objects.
+
+Print Actual References:
+Uses System.identityHashCode to print the actual reference values of the book objects.
+
+Taste Case - 1 :
+-------------------
+Sample Input :
+(pass the object reference in printing statement )
+-->call the toString method and hashcode method of the object .
+
+Expected Output :
+
+("print all the details according to question.")

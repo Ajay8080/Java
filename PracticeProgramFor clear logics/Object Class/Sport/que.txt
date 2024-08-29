@@ -1,0 +1,65 @@
+Design a class hierarchy to represent a generic sports category and a specific type of sport, soccer.
+
+Create 2 classes : Sports & Soccer
+
+
+
+Define the Sports class with following specifications :-
+
+Sports:
+=======
+
+Methods:
+getName(String)                : String(public)
+getNumberOfTeamMembers()     :String (public)
+
+getName method returns a String value as "Sports".
+
+getNumberOfTeamMembers method returns a String value as "Each team has 'n' players in Sports".
+
+where n is a placeholder for the number of players in a team for generic sports.
+
+
+
+Create a sub classes of Sports called Soccer.
+
+Define the Soccer class with following specifications :-
+
+Soccer:
+=====
+
+Methods:
+
+override getName(String) from parent class.
+
+ This method returns a String value as any sports name.
+
+override getNumberOfTeamMembers from parent class.
+
+ This method returns a String value as
+["In sports(given via getName()),each team has 11 players".]
+
+
+Testing Class
+
+A class Testing is provided with a main method. Use this class to create instances of Sports and Soccer, and test the overridden methods.
+
+
+
+Test Case -1: Generic Sport
+----------------
+Sample Input : Create an instance of Sports and call getName()                              and getNumberOfTeamMembers().
+
+Expected Output:
+
+In Sports,
+Each team has n players in Sports
+
+
+Test Case -2 : Null Reference
+---------------
+Input: Check for null before calling methods on a Sports reference.
+
+Expected Output:
+
+Error: Sports object is null

@@ -1,0 +1,45 @@
+Take a class named as Movie :
+
+inside this declare  methods :
+
+Private Method getClassName() :
+
+This method will print  the name of the class and returns it as a String by using object class predefined method.
+
+Take  a Main class :
+
+Creates an instance of Movie with title "Kalki" and director "Nag Ashwin".
+
+Print Movie Details:
+Calls the toString method to print movie details.
+
+Display Class Name:
+Calls the displayClassName method to print the class name.
+
+
+Example :
+
+Test case - 1 :
+----------------
+
+Sample Input:
+
+Movie movie = new Movie("Inception", "Christopher Nolan");
+System.out.println(movie.toString());
+
+Expected Output :
+
+Movie Title: Inception, Directed by: Christopher Nolan
+
+Test case - 2 :
+-----------------
+
+Sample Input:
+
+Movie movie = new Movie("Inception", "Christopher Nolan");
+movie.displayClassName();
+
+Expected Output:
+
+Class of movie object: Movie
+

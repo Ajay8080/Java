@@ -1,0 +1,83 @@
+[#] Create a base class named Currency:
+
+This class should have a attribute :
+
+country   :String (private)
+
+Include a constructor that initializes the country attribute.
+
+Override the toString method to return a string in the format:
+
+Currency from: "country".
+
+Override the equals method to compare the country attribute of two Currency objects.
+
+[#] Create a sub class named Dollar that extends Currency:
+
+This class should have a attribute :
+
+value   :double(private )
+
+Include a constructor that initializes both the country (via the superclass constructor) and value attributes.
+
+Override the toString method to return a string in the format:
+
+Dollar from  "country": $"value".
+
+Override the equals method to compare both the country and value attributes of two Dollar objects.
+
+Create a Main class with a main method and Create an instance of Currency and two instances of Dollar.
+
+Use the toString method to print the details of these objects.
+Use the equals method to compare the two Dollar objects and print if they are equal.
+
+Use the getClass method to print the class names of the Currency and Dollar objects.
+
+Use the getClass method to check if the Currency object is of type Dollar and print an appropriate message.
+
+Example :-
+------------
+
+Test Case -1:
+---------------
+
+ equals Method with Same Objects
+
+Sample Input:
+
+Dollar dollar1 = new Dollar("USA", 100.0);
+Dollar dollar2 = new Dollar("USA", 100.0);
+
+Expected Output:
+
+Are dollar1 and dollar2 equal? true
+
+Test Case -2:
+---------------
+
+ getClass Method
+
+Sample Input:
+
+Currency currency = new Currency("USA");
+Dollar dollar = new Dollar("USA", 100.0);
+
+Expected Output:
+
+Class of currency object: Currency
+Class of dollar object: Dollar
+
+Test Case -3:
+----------------
+
+equals Method with Null
+
+Sample Input:
+
+Dollar dollar = new Dollar("USA", 100.0);
+Dollar nullDollar = null;
+
+Expected Output:
+
+Is dollar equal to null? false
+

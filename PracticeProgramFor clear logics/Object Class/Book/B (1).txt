@@ -1,0 +1,26 @@
+Book Class:
+
+Attributes:
+title and author.
+varriables are (private and String)
+Constructor: Initializes the title and author attributes.
+
+toString Method: Overrides the toString method to return a custom string representation of the Book object.
+
+Main Class:
+
+Object Creation:
+
+ Creates an instance of Book with the title "To Kill a Mockingbird" and the author "Harper Lee".
+
+Print Book Details:
+ Calls the toString method to print the book details. by using object class method.
+
+test Case -1 :
+----------------
+
+Sample Input: (pass the reference of the object )
+
+Expected Output :
+----------------------
+(print the details of the object information)
