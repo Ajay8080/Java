@@ -1,0 +1,7 @@
+Write a java program to find the middle elements of a given array. If array is odd then print only the middle element,
+ if array is even then print both the middle elements.[searching based on index]
+
+Input as : 1 2 3 4 5  
+Output is : 3
+Input is : 1 2 3 4 5 6 
+Output is : 3 4
