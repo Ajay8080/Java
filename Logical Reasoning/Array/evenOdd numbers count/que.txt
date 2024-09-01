@@ -1,6 +1,0 @@
-Write a java program to count how many even elements and how many odd elements are present in an array.[Searching Operation]
-
-Input as : 1 2 3 4 5
-Ans :
-Even count : 2
-Odd count : 3
