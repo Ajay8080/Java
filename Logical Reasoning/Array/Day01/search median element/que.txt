@@ -1,0 +1,11 @@
+Find the median of a sorted array.
+    Test Case: 1
+  ----------------
+   Array size: 6
+   Elements are: 1, 2, 3, 4, 5, 6
+   Median is: 3.5
+  Test Case: 2
+  ----------------
+   Array size: 5
+   Elements are: 1, 2, 3, 4, 5
+   Median is: 3
