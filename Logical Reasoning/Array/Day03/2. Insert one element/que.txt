@@ -1,0 +1,20 @@
+/*Write a program to insert one element in a desired index in an sorted array and return resulting array.
+arr = {1,2,3,4,5} 
+Test Case - 1
+------------------
+Enter index : 3
+Enter element : 9
+Output : [1, 2, 3, 9, 4, 5]
+
+Test Case - 2
+------------------
+Enter index : 0
+Enter element : 9
+Output : [9, 1, 2, 3, 4, 5]
+
+Test Case - 3
+------------------
+Enter index : 4
+Enter element : 9
+Output : [1, 2, 3, 4, 9, 5]
+*/
