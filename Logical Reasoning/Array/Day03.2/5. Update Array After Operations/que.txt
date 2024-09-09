@@ -1,0 +1,46 @@
+Problem statement
+You are given an array 'ARR' consisting of 'N' integers and a non-negative integer 'K'. Consider an operation on the array as replacing every element 'ELE' of the array with 'MX - ELE', where 'MX' is the maximum element of the array. You need to return the updated array, given that this operation is performed on the array exactly 'K' number of times.
+
+Note:
+
+1. The array follows 0-based indexing.
+2. Note that after each operation, the next operation will be performed on the updated array i.e the array obtained after the last operation.
+Detailed explanation ( Input/output format, Notes, Images )
+Constraints:
+1 <= T <= 100
+1 <= N <= 10^4
+-10^9 <= ARR[i] <= 10^9
+0 <= K <= 10^9
+
+Sample Input 1:
+length: 4 
+k: 2
+20 15 10 5
+Sample Output 1:
+15 10 5 0
+
+Explanation for Sample Input 1:
+The given array’s 0-based indexing is as follows:
+
+In the first operation, maximum = 20.
+
+20    15    10    5     
+↓      ↓    ↓     ↓
+0      5    10    15
+
+These will be the array values, after one operation.
+
+In the second operation,  maximum = 15.
+
+0      5     10    15     
+↓      ↓      ↓     ↓
+15     10     5     0
+
+Now the array to be returned is {15, 10, 5, 0}.
+
+Sample Input 2:
+length: 4 
+k: 3
+0 0 9 18
+Sample Output 2:
+18 18 9 0  

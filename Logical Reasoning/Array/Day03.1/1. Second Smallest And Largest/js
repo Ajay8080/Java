@@ -1,0 +1,60 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class FindLargestElements {
+
+    // Method to find the 2nd largest element in a sorted array
+    public static int find2ndLargest(int[] array) {
+        for (int i = array.length - 1; i > 0; i--) {
+            if (array[i] > array[i - 1]) {
+                return array[i - 1];
+            }
+        }
+        return -1;  // Return -1 if no second largest exists
+    }
+
+    // Method to find the k-th largest element from a sorted array
+    public static int nthLargestFromSorted(int[] array, int k) {
+        if (k == 1) {
+            return array[array.length - 1];  // The largest element
+        }
+        
+        int count = 1; // Initialize count for distinct elements
+        for (int i = array.length - 1; i > 0; i--) {
+            if (array[i] > array[i - 1]) {  // Check for a distinct element
+                count++;
+            }
+            if (count == k) {  // If count reaches the desired k-th largest element
+                return array[i - 1];
+            }
+        }
+        return -1;  // Return -1 if no k-th largest element exists
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the size of the array: ");
+        int size = sc.nextInt();
+
+        int[] array = new int[size];
+
+        System.out.println("Enter the elements of the array: ");
+        for (int i = 0; i < size; i++) {
+            array[i] = sc.nextInt();
+        }
+
+        // Sort the array
+        Arrays.sort(array);
+
+        // Find the 2nd largest element
+        int secondLargest = find2ndLargest(array);
+        System.out.println("Second largest element: " + secondLargest);
+
+        // Find the k-th largest element
+        System.out.println("Enter the value of k for the k-th largest element: ");
+        int k = sc.nextInt();
+        int kthLargest = nthLargestFromSorted(array, k);
+        System.out.println(k + "-th largest element: " + kthLargest);
+    }
+}
